@@ -8,6 +8,12 @@
 </head>
 <body>
     <h1>Aqui eu fiz o curso de <strong>Java Script</strong></h1>
-    <button href=""></button>
+    <iframe src="2.txt" frameborder="0" id="i1"></iframe>
+    <button onclick="iframe00('Aula04/index.html')">Aula04</button>    
+    <script>
+        function iframe00(x) {
+            document.getElementById('i1').src = x;
+        }
+    </script>
 </body>
 </html>
