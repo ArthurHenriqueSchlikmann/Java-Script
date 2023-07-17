@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>    
+    <style>
+        body{
+            background-color: #e7841371;
+            color: white;
+            font: normal 25pt arial;
+        }
+    </style>
+</head>
+<body> 
+    <h1>Olá, Mundo.</h1>
+    <form>
+        <fieldset>Login
+        <p><label for="cUsu">Usuário:</label> <input type="text" name="tUsu" id="cUsu" maxlength="123" placeholder="Nome de usuario"></p>
+        <p><label for="cSen">Senha:</label><input type="password" name="tSen" id="cSen" minlength="5" maxlength="9"></p>
+        <button onclick="verificar()">Login</button>
+        </fieldset>
+    </form>
+<script>
+  function verificar() {
+    var login;
+    var senha;
+    var porta = window.prompt("Digite sua porta fornecida");
+    if (porta == "1852012") {
+        login = document.getElementById("cUsu");
+        senha = document.getElementById("cSen");
+        if (login == "admin", senha == "admin") { 
+            document.write('voce forneceu eses dados' + login + senha);
+        }    
+    }
+}
+</script>
+</body>
+</html>
