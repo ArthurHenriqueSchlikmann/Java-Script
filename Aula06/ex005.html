@@ -15,9 +15,20 @@
 <body>
     <h1>Iniciando estudos em dom</h1>
     <p>Aqui vai o resultado</p>
-    <div>clique em mim</div>
+    <div id="msg">clique em mim</div>
+    <p>Aprendendo a usar o <strong>DOM</strong> em Java Script</p>
     <script>
-        
+        //Codigo de exemplo salvo.
+        /*
+        var corpo = window.document.body
+        corpo.style.background = 'black'
+        var msg = window.document.getElementById("msg");
+        msg.style.background = 'green'
+        msg.innerText = 'Estou Aguardando!!!!!!'
+        */
+        var div = document.querySelector("div#msg");
+        div.style.color = 'blue'
+        div.style.background = 'green'
     </script>
 </body>
 </html>
