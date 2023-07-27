@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Central curso de JS</title>
+    <style>
+        body {
+            background-color: #237fcf;
+            font: normal 12pt Arial;
+        }
+        iframe#i1 {
+            height: 500px;
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aqui eu fiz o curso de <strong>Java Script</strong></h1>
+    <iframe src="2.txt" frameborder="1" id="i1"></iframe><br/>
+    <button onclick="iframe00('2.txt')">Home</button>
+    <button onclick="iframe00('Aula04/index.html')">Aula04</button>
+    <button onclick="iframe00('Aula06/ex002.html')">Aula06 (primeiro exemplo)</button>
+    <button onclick="iframe00('Aula06/ex003.html')">Aula06 (segundo exemplo)</button>
+    <button onclick="iframe00('Aula06/ex004.html')">Aula06 (terceiro exemplo)</button>
+    <button onclick="iframe00('LICENSE.txt')">Licença</button>    
+    <script>
+        function iframe00(x) {
+            document.getElementById('i1').src = x;
+        }
+    </script>
+</body>
+</html>
