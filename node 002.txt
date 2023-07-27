@@ -1,0 +1,12 @@
+var a = 5
+var b = 8;
+true && false
+true || false
+a > b || b + a / 2 == 3
+a > b || b + a / 2 == 
+
+3
+13 / 2
+a > b || b + a / 2 == 6.5
+a > b || b + a / 2 == 10.5
+a <= b || b / 2 == 2
